@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="./../CSS/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="./../ASSETS/logo.png" alt="logo">
+        <h1>Add Employee Payroll UI/UX Design</h1>
+    </div>
+    <div class="head-body">
+    <div class="flex-container">
+        <form id="employeeForm" action="details.html">
+        <h2>Employee Payroll Form</h2>
+        <div class="child">
+            <label for="name" class="left-side">Name: </label>
+            <div class="right-side name-field">
+                    <input pattern="^([A-Z][a-z]+)( [A-Z][a-z]+)*$" type="text" name="name" id="name" >
+                    <span>This field must have only letters.</span>
+            </div>   
+        </div>
+        <div class="child">
+            <label for="profileimage" class="left-side">Profile Image: </label>
+            <div  class="right-side">
+                <div class="profile-field">
+                <div class="pflbox">
+                    <input type="radio" name="profile" id="image" value="./../ASSETS/male.png">
+                <img class="imagess" src="./../ASSETS/male.png" alt="image1">
+                <input type="radio" name="profile" id="image" value="./../ASSETS/female.png">
+                <img class="imagess" src="./../ASSETS/female.png" alt="image1">
+                <input type="radio" name="profile" id="image" value="./../ASSETS/male2.png">
+                <img class="imagess" src="./../ASSETS/male2.png" alt="image2">
+                <input type="radio" name="profile" id="image" value="./../ASSETS/female2.png">
+                <img class="imagess" src="./../ASSETS/female2.png" alt="image3">
+                </div>
+                <span>Please select any one option</span>
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <label for="gender" class="left-side">Gender: </label>
+            <div class="right-side gender-field">
+                <div class="gender">
+                <input type="radio" class="gender-input" id="male" name="gender" value="male">
+                <label class="gender-box" for="male">Male</label>
+                <input style="margin-left: 36px;" class="gender-input" type="radio" id="female" name="gender" value="female">
+                <label class="gender-box" for="female">Female</label>
+                </div>
+                <span>Please select any one option</span>
+            </div>
+        </div>  
+        <div class="child checking">
+            <label for="department" class="left-side">Department: </label>
+            <div class="check-field">
+            <div class="check">
+                <input type="checkbox" name="depart" class="depart" value="Hr">
+                <label for="hr">Hr</label>  
+                <input type="checkbox" name="depart" class="depart" value="Sales">
+                <label for="sales">Sales</label>
+                <input type="checkbox" name="depart" class="depart" value="Finance">
+                <label for="finance">Finance</label>
+                <input type="checkbox" name="depart" class="depart" value="Engineer">
+                <label for="engineer">Engineer</label>
+                <input type="checkbox" name="depart" class="depart" value="Others">
+                <label for="others">Others</label>
+            </div>
+            <span>Please select any one option</span>
+</div>
+        </div>
+        <div class="child">
+            <label for="salary" class="left-side">Salary: </label>
+            <div class="salary-field">
+            <select style="width:100%; border: 1px solid;" name="salary" id="salary" class="right-side">
+                <option value="">Select Salary</option>
+                <option value="300000">300000</option>
+                <option value="400000">400000</option>
+                <option value="500000">500000</option>
+                <option value="600000">600000</option>
+            </select>
+            <span>Please select any one option</span>
+        </div>
+        </div>
+        <div class="child">
+            <label for="startdate" class="left-side">Start Date: </label>
+            <div class="right-side">
+                <div class="date-field">
+                <div class="date-container">
+                    <select name="startdate" id="day" class="date-box">
+                        <option value="">Select Date</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="startdate" id="month" class="date-box">
+                        <option value="">Select Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="startdate" id="year" class="date-box">
+                        <option value="">Select Year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+                <span>Please select the date</span>
+            </div>
+            </div>
+        </div>
+        <div class="child note">  
+            <label for="message" class="left-side">Notes: </label>
+            <div class="right-side note-field">
+            <textarea pattern=".{5,}" id="message" name="message" class="notes"  rows="5" cols="10"></textarea>  
+            <span>Please fill at least 10 words</span>
+            </div>
+        </div>
+        <div class="button-container">
+            <button type="cancel" class="cancelbutton">Cancel</button>
+            <div class="submitbutton">
+            <button id="submit-button" type="submit">Submit</button>
+            <button id="update-button" type="update">Update</button>
+            <button type="reset">Reset</button>
+            </div>
+        </div> 
+        </form>
+    </div>
+    </div>
+    <script src="./../JS/script.js"></script>
+</body>
+</html>

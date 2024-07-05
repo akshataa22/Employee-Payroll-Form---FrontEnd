@@ -1,0 +1,248 @@
+.header {
+    display: flex;
+    background-color: white;
+    padding: 30px 0 30px 0;
+    width: 100%;
+}
+
+.flex-container {
+    background-color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.head-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.imagess {
+    width: 35px;
+    height: auto;
+    margin: auto 10px auto 10px;
+    border-radius: 50%;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    margin-right: 185px;
+    margin-left: 160px;
+}
+
+span{
+    font-size: 14px;
+}
+
+h1{
+    color: #2E86C1 ;
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    width: 700px;
+    height: 100%;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 2%;
+}
+
+.form-container {
+    width: 600px;
+}
+
+h2 {    
+    color: #043353;
+    margin-bottom: 21px;
+}
+
+
+
+.gender-box {
+    margin-left: 20px;
+}
+
+.child {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.left-side {
+    display: flex;
+    width: 30%;
+    font-size: 120%
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.images {
+    margin-left: 20%;
+    margin-right: 9%;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5%;
+    border: .5px solid;
+    height: 30px;
+    width: 80px;
+}
+
+.submitbutton {
+    margin-left: 456px;
+}
+
+.pflbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.date-box {
+    width: 34%;
+    border: 1px solid;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.date-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name{
+    font-size: medium;
+    border: 1px solid; 
+    width: 100%;
+    height: 23px;
+}
+
+.name-field {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field span {
+    display: none;
+    color: red;
+}
+
+.profile-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-field span {
+    display: none;
+    color: red;
+}
+
+.gender-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-field span {
+    display: none;
+    color: red;
+}
+
+.check-field {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.check-field span {
+    display: none;
+    color: red;
+}
+
+.salary-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.salary-field span {
+    display: none;
+    color: red;
+}
+
+.date-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-field span {
+    display: none;
+    color: red;
+}
+
+.note-field {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.note-field span {
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+
+.checking {
+    margin-bottom: 20px;
+}
+
+.notes {
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
